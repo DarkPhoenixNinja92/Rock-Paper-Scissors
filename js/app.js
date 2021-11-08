@@ -33,7 +33,7 @@ function draw(playChoice, compChoice) {
 function game(choice) {
     const compChoice = getCompChoice();
     switch (choice + compChoice) {
-        case "RockPaper":
+        case "RockScissors":
         case "PaperRock":
         case "ScissorsPaper":
             victory(choice, compChoice);
